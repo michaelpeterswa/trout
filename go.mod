@@ -1,3 +1,3 @@
-module github.com/michaelpeterswa/go-lib
+module 676f.dev/trout
 
-go 1.18
+go 1.20
