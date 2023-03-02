@@ -19,3 +19,16 @@ func ExampleCounter() {
 
 	c.End()
 }
+
+func ExampleNewDefaultCounter() {
+	c := counter.NewDefaultCounter("test")
+	time.Sleep(1 * time.Second)
+	c.Inc()
+	time.Sleep(1 * time.Second)
+	c.Inc()
+	time.Sleep(1 * time.Second)
+	c.Inc()
+	time.Sleep(1 * time.Second)
+
+	c.End()
+}
